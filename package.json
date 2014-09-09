@@ -13,6 +13,9 @@
     "grunt-contrib-jshint": "~0.10.0",
     "jshint-stylish": "~0.4.0",
     "grunt-contrib-concat": "~0.5.0",
-    "grunt-contrib-uglify": "~0.5.1"
+    "grunt-contrib-uglify": "~0.5.1",
+    "build-workflow": "0.0.17",
+    "matchdep": "~0.3.0",
+    "grunt-ez-frontend": "~0.2.21"
   }
 }
