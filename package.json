@@ -17,6 +17,13 @@
     "build-workflow": "0.0.17",
     "matchdep": "~0.3.0",
     "grunt-ez-frontend": "~0.2.21",
-    "grunt-contrib-clean": "~0.6.0"
+    "grunt-contrib-clean": "~0.6.0",
+    "es6-promise": "~1.0.0",
+    "twig": "~0.7.2",
+    "marked": "~0.3.2",
+    "dot": "~1.0.2",
+    "moment": "~2.8.3",
+    "grunt-autoprefixer": "~1.0.1",
+    "grunt-csso": "~0.6.3"
   }
 }
