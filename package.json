@@ -32,6 +32,13 @@
     "time-grunt": "~1.0.0",
     "docco-husky": "https://github.com/royriojas/docco-husky/tarball/f02aff8",
     "yuidocjs": "https://github.com/royriojas/yuidoc/tarball/exampleurl",
-    "yuidoc-theme-blue": "~0.1.8"
+    "yuidoc-theme-blue": "~0.1.8",
+    "grunt-exec": "~0.4.6"
+  },
+  "docco_husky": {
+    "content_dir": "docs",
+    "output_dir": "documentation",
+    "project_name": "Demo project",
+    "show_timestamp": true
   }
 }
