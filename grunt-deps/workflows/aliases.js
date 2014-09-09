@@ -4,12 +4,18 @@ module.exports = function ( grunt, pkg, opts ) {
   var gruntTaksUtils = opts.gruntTaskUtils;
 
   var aliases = {
+
+    'custom-tasks': [
+      'brianTask:hello',
+      'aakashTask'
+    ],
+
     'default': [
+      'clean',
       'jshint', 
       'concat', 
-      'uglify', 
-      'brianTask:hello', 
-      'aakashTask'
+      'uglify',
+      'custom-tasks'
     ]
   };
 

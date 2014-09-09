@@ -16,6 +16,7 @@
     "grunt-contrib-uglify": "~0.5.1",
     "build-workflow": "0.0.17",
     "matchdep": "~0.3.0",
-    "grunt-ez-frontend": "~0.2.21"
+    "grunt-ez-frontend": "~0.2.21",
+    "grunt-contrib-clean": "~0.6.0"
   }
 }
