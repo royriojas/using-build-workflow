@@ -23,9 +23,8 @@ var index = {
     // implementations of the greeters ever done in javascript
     //
     var greeter = require( './greet' );
-    greeter.greet('Brian and Aakash!!!');
+    greeter.greet( 'Brian and Aakash!!!' );
   }
 };
-
 
 index.init();

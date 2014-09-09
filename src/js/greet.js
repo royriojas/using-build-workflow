@@ -2,8 +2,7 @@
  * The demo module
  * @module demo
  *
-*/
-
+ */
 
 /**
  * a simple demo class to say hello
@@ -20,7 +19,7 @@ module.exports = {
    * @method greet
    * @param [name] {String} the name to say hi or `unknown` if none provided
    */
-  greet: function (name) {
+  greet: function ( name ) {
     console.log( 'hello world!, hello: ', name || 'unknown' );
   }
 };
