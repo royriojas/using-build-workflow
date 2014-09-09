@@ -1,11 +1,7 @@
-module.exports = function (grunt) {
-  
-  require('build-workflow')(grunt, {
+module.exports = function ( grunt ) {
+
+  require( 'build-workflow' )( grunt, {
     loadBaseTasksAndConfigs: true
-  });
-  
+  } );
+
 };
-
-
-
-

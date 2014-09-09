@@ -9,11 +9,11 @@ module.exports = function ( grunt, pkg, opts ) {
       multiTask: function () {
         var data = this.data;
 
-        var opts = this.options({
+        var opts = this.options( {
           someValue: 'here is the default'
-        });
+        } );
 
-        console.log('aakashTask', data, opts);
+        console.log( 'aakashTask', data, opts );
       }
     }
   };

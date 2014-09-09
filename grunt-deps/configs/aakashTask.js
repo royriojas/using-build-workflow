@@ -11,15 +11,15 @@ module.exports = function ( grunt, pkg, opts ) {
       options: {
         someValue: 'Another value from local'
       },
-      src: ['src/**/*.js'],
+      src: [ 'src/**/*.js' ],
       dest: 'dist/'
     },
     task2: {
       options: {
         anotherVariable: 'some different value here'
       },
-      src: ['src/**/*.js'],
+      src: [ 'src/**/*.js' ],
       dest: 'dist/'
     }
-  }
+  };
 };

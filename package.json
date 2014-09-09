@@ -24,6 +24,14 @@
     "dot": "~1.0.2",
     "moment": "~2.8.3",
     "grunt-autoprefixer": "~1.0.1",
-    "grunt-csso": "~0.6.3"
+    "grunt-csso": "~0.6.3",
+    "grunt-jsbeautifier": "https://github.com/royriojas/grunt-jsbeautifier/tarball/e69f6ef",
+    "grunt-jsvalidate": "~0.2.2",
+    "grunt-jscs": "~0.7.1",
+    "grunt-codepainter": "~1.1.0",
+    "time-grunt": "~1.0.0",
+    "docco-husky": "https://github.com/royriojas/docco-husky/tarball/f02aff8",
+    "yuidocjs": "https://github.com/royriojas/yuidoc/tarball/exampleurl",
+    "yuidoc-theme-blue": "~0.1.8"
   }
 }

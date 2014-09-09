@@ -12,9 +12,9 @@ module.exports = function ( grunt, pkg, opts ) {
 
     'default': [
       'clean',
-      'jshint', 
-      'concat', 
-      'uglify',
+      'check-valid',
+      'target:js-demo',
+      'target:css-demo',
       'custom-tasks'
     ]
   };

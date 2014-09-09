@@ -4,11 +4,11 @@ module.exports = function ( grunt, pkg, opts ) {
   var gruntTaksUtils = opts.gruntTaskUtils;
 
   var task = {
-    'brianTask': function (data) {
-      var options = this.options({
+    'brianTask': function ( data ) {
+      var options = this.options( {
         someValue: 'default'
-      });
-      console.log('brianTask',data, options);
+      } );
+      console.log( 'brianTask', data, options );
     }
   };
 

@@ -7,5 +7,5 @@ module.exports = function ( grunt, pkg, opts ) {
     options: {
       someValue: 'Another value' + pkg.version
     }
-  };  
+  };
 };

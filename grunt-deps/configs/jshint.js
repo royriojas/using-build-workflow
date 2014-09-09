@@ -5,10 +5,10 @@ module.exports = function ( grunt, pkg, opts ) {
 
   return {
     options: {
-      reporter: require('jshint-stylish')
+      reporter: require( 'jshint-stylish' )
     },
     all: {
-      src: ['src/**/*.js', 'Gruntfile.js']
+      src: [ 'src/**/*.js', 'Gruntfile.js' ]
     }
   };
 };
